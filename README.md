@@ -1,3 +1,3 @@
 # nuclear-bomb
 
-division by Zero
+division by Zero in 10+ languages
