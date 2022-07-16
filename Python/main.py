@@ -1,3 +1,9 @@
 # division by zero
-y = 0/0
-print(y)
+
+try:
+  y = 0/0
+  print(y)
+
+except ZeroDivisionError:
+  y = 0/0
+  print(y)
