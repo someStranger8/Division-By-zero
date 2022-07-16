@@ -10,15 +10,14 @@ def div(a, b):
   # loop through it
   while a > b:
     # without remainder
-    if a == 0:
-      return i
+    if a == b:
+      return i + 1
     
     # keep counting
     i+=1
-    int a-=b
+    a-=b
 
   # with remainder
   return f"{i} with a remainder of {a}"
-}
 
 print(div(0,0))
