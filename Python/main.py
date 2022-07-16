@@ -1,23 +1,33 @@
 
-"""
+/*
   division by zero
-"""
+*/
 
-def div(a, b):
-  # count how many times b is in a
-  i = 0
+#include <iostream>
+using namespace std;
 
-  # loop through it
-  while a > b:
-    # without remainder
-    if a == 0:
-      return i
+char div(int a, int b) {
+  // count how many times b is in a
+  int i = 0;
+
+  // loop through it
+  while (a > b) {
+    // without remainder
+    if (a == 0) {
+      return "" + i;
+    }
     
-    # keep counting
-    i += 1
-    a -= b
-  
-  # with remainder
-  return f"{i} with a remainder of {a}"
+    // keep counting
+    int i = i + 1;
+    int a = a - b;
+  }
 
-print(div(0,0))
+  // with remainder
+  return "" + i + " with a remainder of " + a;
+}
+
+int main() {
+  // division by zero
+  cout << div(0,0) << endl;
+  return 0;
+}
