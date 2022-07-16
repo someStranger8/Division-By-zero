@@ -8,7 +8,7 @@ def div(a, b):
   i = 0
 
   # loop through it
-  while a > b:
+  while a >= b:
     # without remainder
     if a == b:
       return i + 1
