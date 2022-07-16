@@ -11,7 +11,7 @@ func div(a, b) {
   var i = 0;
 
   // loop through it
-  for a > b {
+  for a >= b {
     // without remainder
     if a == b {
       var l = i + 1;
