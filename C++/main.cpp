@@ -6,15 +6,16 @@
 #include <iostream>
 using namespace std;
 
-char div(int a, int b) {
+void div(int a, int b) {
   // count how many times b is in a
   int i = 0;
 
   // loop through it
   while (a > b) {
     // without remainder
-    if (a == 0) {
-      return "" + i;
+    if (a == b) {
+      int l = i + 1;
+      return "" + l;
     }
     
     // keep counting
