@@ -1,3 +1,3 @@
-# nuclear-bomb
+# Division By Zero
 
-division by Zero in 10+ languages because i have bren damage
+Division by zero in 10+ languages because I have nothing better to do...
