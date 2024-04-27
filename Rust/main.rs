@@ -11,10 +11,9 @@ fn div(mut a, b) -> char {
   
   // loop through it
   while (a >= b) {
-    // without remainder
+    // return without remainder
     if (a == b) {
-      let r = format("{}", i + 1);
-      r
+      format("{}", i + 1);
     }
     
     // keep counting
@@ -22,9 +21,8 @@ fn div(mut a, b) -> char {
     let mut a = a - b;
   }
   
-  // with remainder
-  let l = format("{} with a remainder of {}", i, a);
-  l
+  // return with remainder
+  format("{} with a remainder of {}", i, a);
 }
 
 fn main() {
