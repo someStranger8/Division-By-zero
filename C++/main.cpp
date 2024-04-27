@@ -6,7 +6,7 @@
 #include <iostream>
 using namespace std;
 
-void div(int a, int b) {
+char div(int a, int b) {
   // count how many times b is in a
   int i = 0;
 
