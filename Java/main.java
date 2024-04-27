@@ -11,7 +11,7 @@ public class Main {
         System.out.println(div(0,0));
     }
 
-    public static void div(int a, int b) {
+    public static string div(int a, int b) {
       // count how many times b is in a
       int i = 0;
 
