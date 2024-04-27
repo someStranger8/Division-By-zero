@@ -4,9 +4,8 @@
 */
 
 #include<stdio>
-#include<stdiolib>
 
-void div(int a, int b) {
+float div(int a, int b) {
   // count how many times b is in a
   int i = 0;
 
