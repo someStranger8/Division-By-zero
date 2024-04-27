@@ -11,7 +11,7 @@ namespace Hello {
             Console.WriteLine(div(0,0));
         }
 
-        static void div(int a, int b) {
+        static string div(int a, int b) {
             // count how many times b is in a
             int i = 0;
 
